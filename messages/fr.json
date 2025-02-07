@@ -1,0 +1,166 @@
+{
+  "admin": {
+    "sidebar": {
+      "agencies": "Gestion des agences",
+      "bookings": "Gestion des réservations",
+      "dashboard": "Dashboard",
+      "pricing": "Gestion des tarifs",
+      "title": "Hertz Admin",
+      "vehicles": "Gestion des véhicules"
+    },
+    "userNav": {
+      "logout": "Déconnexion",
+      "profile": "Profile",
+      "settings": "Paramètres"
+    },
+    "vehicles": {
+      "form": {
+        "add": "Ajouter un véhicule",
+        "available": "Disponible",
+        "brand": "Marque",
+        "image": "Photo du véhicule",
+        "model": "Modèle",
+        "price": "Prix",
+        "submit": "Enregistrer",
+        "title": "Nouveau véhicule",
+        "year": "Année"
+      },
+      "table": {
+        "columns": {
+          "actions": "Actions",
+          "available": "Disponible",
+          "brand": "Marque",
+          "image": "Photo",
+          "model": "Modèle",
+          "name": "Nom",
+          "price": "Prix"
+        },
+        "search": "Rechercher un véhicule..."
+      },
+      "title": "Gestion des véhicules"
+    }
+  },
+  "auth": {
+    "login": {
+      "email": "Email",
+      "errors": {
+        "default": "Une erreur est survenue lors de la connexion",
+        "invalidCredentials": "Email ou mot de passe incorrect",
+        "title": "Erreur de connexion",
+        "userNotFound": "Utilisateur non trouvé"
+      },
+      "noAccount": "Pas encore inscrit ?",
+      "password": "Mot de passe",
+      "register": "Enregistrez-vous",
+      "submit": "Se connecter",
+      "submitting": "Connexion...",
+      "success": {
+        "message": "Vous êtes maintenant connecté",
+        "title": "Connexion réussie"
+      },
+      "title": "Connexion",
+      "validation": {
+        "invalidEmail": "Format d'email invalide",
+        "passwordMinLength": "Le mot de passe doit comporter au moins 8 caractères",
+        "passwordRequirements": "Le mot de passe doit contenir au moins une lettre, un chiffre et un caractère spécial (@$!%*?&)",
+        "required": "Ce champ est requis"
+      }
+    },
+    "register": {
+      "confirmPassword": "Confirmer le mot de passe",
+      "email": "Email",
+      "errors": {
+        "invalid_credentials": "Identifiants invalides, mot de passe ou email incorrect",
+        "title": "Erreur"
+      },
+      "name": "Nom complet",
+      "password": "Mots de passe",
+      "submit": "Enregistrer",
+      "submitting": "Enregistrement...",
+      "success": "Enregistrement réussi",
+      "title": "Créer un compte",
+      "validation": {
+        "emailAlreadyExists": "L'email existe déjà",
+        "invalidEmail": "Format d'email invalide",
+        "nameMinLength": "Le nom doit comporter au moins 2 caractères",
+        "passwordMinLength": "Le mot de passe doit comporter au moins 8 caractères",
+        "passwordRequirements": "Le mot de passe doit contenir au moins une lettre, un chiffre et un caractère spécial (@$!%*?&)",
+        "passwordsMatch": "Les mots de passe ne correspondent pas"
+      }
+    },
+    "verifyOtp": {
+      "code": "Code de vérification",
+      "errors": {
+        "default": "Une erreur inattendue s'est produite lors de la vérification du code OTP",
+        "expired": "Le code de vérification a expiré",
+        "invalidCode": "Code de vérification invalide",
+        "title": "Erreur de vérification"
+      },
+      "resend": {
+        "message": "Please check your email for the new verification code",
+        "success": "New code sent"
+      },
+      "resendCode": "Renvoyer le code",
+      "resending": "Sending new code...",
+      "submit": "Vérifier",
+      "submitting": "Vérification en cours...",
+      "success": {
+        "message": "Votre compte a été vérifié avec succès",
+        "title": "Vérification réussie"
+      },
+      "validation": {
+        "maxLength": "Le code OTP doit contenir exactement 6 chiffres",
+        "numbersOnly": "Le code OTP ne doit contenir que des chiffres",
+        "required": "Le code OTP est requis"
+      }
+    }
+  },
+  "ContactForm": {
+    "error": {
+      "message": "There was a problem sending your message. Please try again.",
+      "title": "Error"
+    },
+    "fields": {
+      "attachment": "Attachment",
+      "email": "Email Address",
+      "message": "Message",
+      "name": "Nom complet",
+      "phone": "Mobile Number",
+      "subject": "Subject"
+    },
+    "placeholders": {
+      "email": "Enter your email address",
+      "message": "Write your message here...",
+      "name": "Enter your full name",
+      "phone": "Enter your mobile number",
+      "subject": "What is this about?"
+    },
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "success": {
+      "message": "Thank you for your message. We'll get back to you soon!",
+      "title": "Message Sent"
+    }
+  },
+  "ContactPage": {
+    "title": "Contactez-nous"
+  },
+  "Header": {
+    "navigation": {
+      "contact": "Contact",
+      "faq": "FAQ",
+      "login": "Connexion",
+      "reserve": "Réservations",
+      "vehicles": "Véhicules"
+    },
+    "title": "Hertz"
+  },
+  "HomePage": {
+    "about": "Aller à la page d'à propos",
+    "contact": "Aller à la page de contact",
+    "title": "Bonjour le monde!",
+    "wellcome": {
+      "title": "tongasoa  to Hertz"
+    }
+  }
+}

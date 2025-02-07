@@ -1,0 +1,175 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "wellcome": {
+      "title": "Welcome to Hertz"
+    },
+    "about": "Go to the about page",
+    "contact": "Go to the contact page"
+  },
+  "Header": {
+    "title": "Hertz",
+    "navigation": {
+      "vehicles": "Our vehicles",
+      "reserve": "Book now",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "login": "Login"
+    }
+  },
+  "ContactPage": {
+    "title": "Contact Us"
+  },
+  "ContactForm": {
+    "fields": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Mobile Number",
+      "subject": "Subject",
+      "message": "Message",
+      "attachment": "Attachment"
+    },
+    "placeholders": {
+      "name": "Enter your full name",
+      "email": "Enter your email address",
+      "phone": "Enter your mobile number",
+      "subject": "What is this about?",
+      "message": "Write your message here..."
+    },
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "success": {
+      "title": "Message Sent",
+      "message": "Thank you for your message. We'll get back to you soon!"
+    },
+    "error": {
+      "title": "Error",
+      "message": "There was a problem sending your message. Please try again."
+    }
+  },
+  "auth": {
+    "register": {
+      "title": "Create an Account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Register",
+      "submitting": "Registering...",
+      "success": "Account created successfully",
+      "validation": {
+        "nameMinLength": "Name must be at least 2 characters",
+        "invalidEmail": "Invalid email format",
+        "passwordMinLength": "Password must be at least 8 characters",
+        "passwordRequirements": "Password must contain at least one letter, one number, and one special character (@$!%*?&)",
+        "passwordsMatch": "Passwords don't match",
+        "emailAlreadyExists": "Email already exists"
+      },
+      "errors": {
+        "title": "Error",
+        "invalid_credentials": "Invalid credentials, wrong password or email"
+      },
+      "verifyOtp": {
+        "validation": {
+          "required": "OTP code is required",
+          "maxLength": "OTP code must be exactly 6 digits",
+          "numbersOnly": "OTP code must contain only numbers"
+        }
+      }
+    },
+    "verifyOtp": {
+      "code": "Verification Code",
+      "submit": "Verify",
+      "submitting": "Verifying...",
+      "resend": {
+        "success": "New code sent",
+        "message": "Please check your email for the new verification code"
+      },
+      "resending": "Sending new code...",
+      "resendCode": "Resend Code",
+      "validation": {
+        "required": "OTP code is required",
+        "maxLength": "OTP code must be exactly 6 digits",
+        "numbersOnly": "OTP code must contain only numbers"
+      },
+      "success": {
+        "title": "Verification Successful",
+        "message": "Your account has been successfully verified"
+      },
+      "errors": {
+        "title": "Verification Error",
+        "invalidCode": "Invalid verification code",
+        "expired": "Verification code has expired",
+        "default": "An error occurred while verifying your account. Please try again later.",
+        "userNotFound": "User not found"
+      }
+    },
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "submitting": "Logging in...",
+      "noAccount": "Don't have an account?",
+      "register": "Register",
+      "validation": {
+        "invalidEmail": "Invalid email format",
+        "required": "Email is required",
+        "passwordMinLength": "Password must be at least 8 characters",
+        "passwordRequirements": "Password must contain at least one letter, one number, and one special character (@$!%*?&)"
+      },
+      "errors": {
+        "title": "Login Error",
+        "invalidCredentials": "Invalid email or password",
+        "default": "An error occurred while logging in. Please try again later."
+      },
+      "success": {
+        "title": "Login Successful",
+        "message": "You have successfully logged in"
+      }
+    }
+  },
+
+  "admin": {
+    "sidebar": {
+      "title": "Admin Dashboard",
+      "dashboard": "Dashboard",
+      "vehicles": "Vehicles",
+      "pricing": "Pricing",
+      "agencies": "Agencies",
+      "bookings": "Bookings"
+    },
+    "userNav": {
+      "profile": "Profile",
+      "settings": "Paramètres",
+      "logout": "Déconnexion"
+    },
+    "vehicles": {
+      "title": "",
+      "table": {
+        "search": "Rechercher un véhicule...",
+        "columns": {
+          "name": "Nom",
+          "brand": "Marque",
+          "model": "Modèle",
+          "price": "Prix",
+          "available": "Disponible",
+          "image": "Photo",
+          "actions": "Actions"
+        }
+      },
+      "form": {
+        "add": "Ajouter un véhicule",
+        "name": "Nom",
+        "title": "Nouveau véhicule",
+        "brand": "Marque",
+        "model": "Modèle",
+        "year": "Année",
+        "price": "Prix",
+        "available": "Disponible",
+        "image": "Photo du véhicule",
+        "submit": "Enregistrer"
+      }
+    }
+  }
+}
